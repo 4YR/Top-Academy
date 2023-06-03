@@ -1,0 +1,10 @@
+.arrow {
+    list-style: url(arrow.gif);
+}
+p {
+    margin-left: 40px;
+}
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+}
