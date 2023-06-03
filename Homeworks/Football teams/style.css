@@ -1,0 +1,52 @@
+ol {
+  list-style: url(images/football.png);
+}
+
+#Poland {
+    list-style: url(images/flags/poland.png);
+}
+#Russia {
+    list-style: url(images/flags/russia.png);
+}
+#Czech {
+    list-style: url(images/flags/czech.png);
+}
+#Greece {
+    list-style: url(images/flags/greece.png);
+}
+#Germany {
+    list-style: url(images/flags/germany.png);
+}
+#Netherlands {
+    list-style: url(images/flags/netherlands.png);
+}
+#Portugal {
+    list-style: url(images/flags/portugal.png);
+}
+#Denmark {
+    list-style: url(images/flags/denmark.png);
+}
+#Spain {
+    list-style: url(images/flags/spain.png);
+}
+#Italy {
+    list-style: url(images/flags/italy.png);
+}
+#Croatia {
+    list-style: url(images/flags/croatia.png);
+}
+#Ireland{
+    list-style: url(images/flags/ireland.png);
+}
+#Ukraine {
+    list-style: url(images/flags/ukraine.png);
+}
+#England{
+    list-style: url(images/flags/england.png);
+}
+#France{
+    list-style: url(images/flags/france.png);
+}
+#Sweden{
+    list-style: url(images/flags/sweden.png);
+}
