@@ -1,0 +1,23 @@
+.container {
+    width: 400px;
+    height: 600px;
+    background-color:gray
+    
+}
+.images {
+    height: 120px;
+    
+}
+.images:hover {
+    background-color: rgb(87, 85, 85);
+}
+.img {
+    width: 100px;
+    vertical-align: middle;
+}
+span {
+    vertical-align: middle;
+    padding-left: 40px;
+    font-size: 30px;
+    color: white;
+}

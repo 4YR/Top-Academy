@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+h3 {
+    color: white;
+}
+header {
+  height: 65px;
+  background-color: rgb(146 49 88);
+}
+main {
+    float: left;
+    margin-left: 370px;
+    margin-top: -150.5px;
+    width: 1250px;
+    height: 650px;
+    background-color: rgb(182 91 128)
+}
+footer {
+  height: 65px;
+  margin-top: 60px;
+  background-color: rgb(146 49 88);
+}
+section {
+  height: 200px;
+  width: 1000px;
+  margin-top: 30px;
+  margin-left: 125px;
+  background-color: rgb(219, 146, 175)
+}
+.head {
+  margin-top: 15px;
+  height: 55px;
+  background-color: rgb(110 18 55);
+}
+.aside_1 {
+  float: left;
+  margin-top: 15px;
+  width: 350px;
+  height: 150px;
+  background-color: rgb(182 91 128);
+}
+.aside_2 {
+  float: left;
+  margin-top: -485px;
+  width: 350px;
+  height: 200px;
+  background-color: rgb(182 91 128);
+}
+.aside_3 {
+  float: right;
+  margin-top: -150.5px;
+  padding-right: 264px;
+  width: 200px;
+  height: 500px;
+  background-color: rgb(182 91 128);
+}
+.parametrs {
+    padding-top: 1px;
+    padding-left: 50px;
+}
+.title {
+  margin-top: 50px;
+  margin-left: 127px;
+}
+.title_section {
+  padding-top: 40px;  
+  padding-left: 100px;
+}
+.letters {
+  padding-top: 70px;
+  padding-left: 120px;
+}
+.clearfix {
+  clear: both;
+}

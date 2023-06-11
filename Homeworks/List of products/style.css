@@ -4,7 +4,7 @@ body {
 h3 {
   text-align: center;
 }
-.Pepper {
+.main {
   border: solid gray;
   border-radius: 20px;
   float: left;
@@ -14,107 +14,9 @@ h3 {
   padding-top: 20px;
   margin-top: 5px;
   margin-right: 5px;
-}
-.Apple {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Cheese {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Corn {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Mushroom {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
+  cursor: pointer;
 }
 
-.Garlic {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Beef {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Fish {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Eggs {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
-.Coriander {
-  border: solid gray;
-  border-radius: 20px;
-  float: left;
-  text-align: center;
-  width: 180px;
-  height: 230px;
-  padding-top: 20px;
-  margin-top: 5px;
-  margin-right: 5px;
-}
 .clearfix {
   clear: both;
 }

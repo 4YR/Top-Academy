@@ -32,14 +32,12 @@ h1, h2, h3 {
     color: #909090;
     width: 30%;
 }
-/* .clearfix::before, .clearfix::after {
+.clearfix::before, .clearfix::after {
     content: "";
     display: table;
     }
-.clearfix::after { clear: both; } */
-.clearfix {
-    clear:both;
-}
+.clearfix::after { clear: both; }
+
 .alignleft {
     float: left;
     margin-right: 15px;
