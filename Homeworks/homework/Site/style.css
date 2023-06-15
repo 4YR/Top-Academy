@@ -12,7 +12,7 @@ main {
     float: left;
     margin-left: 370px;
     margin-top: -150.5px;
-    width: 1250px;
+    width: 1300px;
     height: 650px;
     background-color: rgb(182 91 128)
 }
@@ -50,8 +50,7 @@ section {
 .aside_3 {
   float: right;
   margin-top: -150.5px;
-  padding-right: 264px;
-  width: 200px;
+  width: 215px;
   height: 500px;
   background-color: rgb(182 91 128);
 }
@@ -69,7 +68,7 @@ section {
 }
 .letters {
   padding-top: 70px;
-  padding-left: 120px;
+  padding-left: 105px;
 }
 .clearfix {
   clear: both;
