@@ -1,0 +1,527 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Cambria, serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 24px;
+  position: relative;
+}
+
+.screenshot {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  opacity: 0.5;
+  background: url(../HW+Layout+PSD/StartUp%20Layout.jpg) center top;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.row::before,
+.row::after {
+  content: "";
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}
+
+[class^="column"] {
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.column-2 {
+  width: 50%;
+}
+
+.column-3 {
+  width: 33.33%;
+}
+
+.column-4 {
+  width: 25%;
+}
+
+.column-5 {
+  width: 41, 67%;
+  margin-left: 180px;
+}
+[class^="column"] p {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  height: 770px;
+  background: url(../images/top-bg.png) no-repeat #6c1d14;
+  background-size: cover;
+  color: #fff;
+  padding-top: 37px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  padding-top: 233px;
+  font-size: 3rem;
+  margin-bottom: 31px;
+}
+
+header h2 {
+  font-size: 20px;
+  font-family: Cambria, serif;
+  margin: 0 0 65px;
+  text-transform: none;
+}
+
+.btn-outline {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 16px 40px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  background-color: #fff;
+  color: #6c1d14;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/*-- Menu --*/
+.menu {
+  text-align: right;
+  float: right;
+  margin: 2px 0;
+  font-family: sans-serif;
+}
+
+.menu a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-left: 32px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 94px 0 100px;
+}
+
+.line-header {
+  text-align: center;
+  margin: 0;
+}
+
+.line-header::after {
+  content: "";
+  display: block;
+  width: 50px;
+  margin: 25px auto;
+  border-bottom: 2px solid;
+}
+
+.intro-text {
+  font-size: 16px;
+  margin-bottom: 70px;
+}
+
+.service h3 {
+  font-size: 1em;
+  margin: 12px 0 14px;
+}
+
+.service p {
+  line-height: 1.6;
+}
+.mt-team {
+  margin-top: 57px;
+}
+.team-member img {
+  transition: filter 0.5s;
+}
+
+.team-member img:hover {
+  filter: brightness(70%);
+}
+
+.team-member h3 {
+  font-size: 1em;
+  margin: 6px 0 2px;
+}
+/*  My code*/
+
+.paint {
+  display: inline;
+}
+.paint:hover {
+  color: rgb(193, 52, 35);
+  cursor: default;
+}
+
+.block_margin {
+  margin-right: 15px;
+  width: 32.4%;
+  padding: 0px 0px;
+}
+.block_without_margin {
+  width: 32.4%;
+  padding: 0px 0px;
+}
+.block_top {
+  margin-top: 15px;
+}
+.blk {
+  background-image: url(../images/Layer\ 18.jpg);
+  background-size: cover;
+}
+
+.blk:hover .overlay {
+  opacity: 1;
+}
+
+.blk2 {
+  background-image: url(../images/Layer\ 19.jpg);
+  background-size: cover;
+}
+.blk2:hover .overlay {
+  opacity: 1;
+}
+.blk3 {
+  background-image: url(../images/Layer\ 20.jpg);
+  background-size: cover;
+}
+.blk3:hover .overlay {
+  opacity: 1;
+}
+.blk4 {
+  background-image: url(../images/Layer\ 21.jpg);
+  background-size: cover;
+}
+.blk4:hover .overlay {
+  opacity: 1;
+}
+.blk5 {
+  background-image: url(../images/Layer\ 22.jpg);
+  background-size: cover;
+}
+.blk5:hover .overlay {
+  opacity: 1;
+}
+.blk6 {
+  background-image: url(../images/Layer\ 23.jpg);
+  background-size: cover;
+}
+.blk6:hover .overlay {
+  opacity: 1;
+}
+.blk7 {
+  background-image: url(../images/Layer\ 24.jpg);
+  background-size: cover;
+}
+.blk7:hover .overlay {
+  opacity: 1;
+}
+.blk8 {
+  background-image: url(../images/Layer\ 25.jpg);
+  background-size: cover;
+}
+.blk8:hover .overlay {
+  opacity: 1;
+}
+.blk9 {
+  background-image: url(../images/Layer\ 26.jpg);
+  background-size: cover;
+}
+.blk9:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  background-color: rgba(255, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 0px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.push {
+  padding: 9.9px 25.3px;
+  color: rgb(192, 48, 28);
+  text-transform: uppercase;
+}
+.img {
+  margin-top: 80px;
+  height: 338px;
+  background-image: url(../images/bg.jpg);
+  background-color: rgba(192, 48, 28);
+  background-size: cover;
+  color: white;
+}
+.img2 {
+  margin-top: 80px;
+  height: 338px;
+  background-color: rgba(192, 48, 28, 0.5);
+}
+.question {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+}
+.question_2 {
+  text-align: center;
+  font-size: 30px;
+}
+.push_2 {
+  margin-left: 870px;
+  text-transform: uppercase;
+  width: 180px;
+  height: 50px;
+  color: white;
+  border: 2px solid;
+  background-color: rgba(255, 244, 243, 0);
+}
+.push_2:hover {
+  color: rgb(192, 48, 28);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.p_blog {
+  text-align: center;
+  font-size: 20px;
+}
+.p_img {
+  margin-top: 65px;
+  float: left;
+}
+.p_blog_2 {
+  margin-left: 24px;
+  text-align: center;
+  font-size: 40px;
+  border: 3.5px solid;
+  padding: 20px 20px;
+}
+.p_title {
+  margin-top: 65px;
+  margin-left: 24px;
+  font-size: 23px;
+}
+.p_title:hover {
+  color: rgb(193, 52, 35);
+  cursor: default;
+}
+.p_author {
+  font-size: 17px;
+  margin-left: 24px;
+  margin-top: 10px;
+}
+.p_author_paint:hover {
+  color: rgb(193, 52, 35);
+  cursor: default;
+}
+.p_parag {
+  margin-top: -200px;
+  margin-left: 471px;
+}
+.brands {
+  height: 480px;
+  background-color: rgb(248, 248, 248);
+  text-align: center;
+}
+.brands2 {
+  padding-top: 96px;
+}
+.br_img {
+  padding-right: 64px;
+}
+.br_par {
+  font-size: 22px;
+  margin-top: 50px;
+}
+.br_par2 {
+  margin-top: 50px;
+}
+.circle {
+  position: absolute;
+  left: 920px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.circle_2 {
+  position: absolute;
+  left: 945px;
+}
+.circle_3 {
+  position: absolute;
+  left: 970px;
+}
+.circle:hover {
+  background-color: rgb(193, 52, 35);
+  cursor: default;
+}
+.clearfix {
+  clear: both;
+}
+.get_font {
+  font-size: 16px;
+  text-align: center;
+}
+.address {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.address_2 {
+  font-size: 14px;
+  margin-left: 20px;
+}
+.input-box {
+  height: 44px;
+  width: 360px;
+  position: absolute;
+  left: 895px;
+  margin-top: -300px;
+  text-transform: uppercase;
+}
+.input-box_2 {
+  margin-left: 391px;
+}
+.input-box_3 {
+  margin-top: 88px;
+}
+.input_write {
+  height: 104px;
+  width: 750px;
+  position: absolute;
+  left: 895px;
+  margin-top: -228px;
+  text-transform: uppercase;
+}
+
+.send_message {
+  position: absolute;
+  left: 895px;
+  margin-top: -95px;
+  width: 170px;
+  height: 44px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  background-color: white;
+}
+.send_message:hover {
+  color: white;
+  background-color: rgb(193, 52, 35);
+  cursor: pointer;
+}
+.some_text {
+  position: absolute;
+  left: 1101px;
+  margin-top: -88px;
+}
+.cont_foot {
+  margin-top: -162px;
+  height: 310px;
+  background-color: rgb(193, 52, 35);
+}
+
+.vector_img {
+  position: absolute;
+  left: 851px;
+  margin-top: 100px;
+}
+.vector_img2 {
+  position: absolute;
+  left: 901px;
+  margin-top: 100px;
+}
+.vector_img3 {
+  position: absolute;
+  left: 951px;
+  margin-top: 100px;
+}
+.vector_img4 {
+  position: absolute;
+  left: 1001px;
+  margin-top: 100px;
+}
+
+.social_net {
+  position: absolute;
+  left: 864px;
+  margin-top: 110px;
+}
+.social_net_2 {
+  position: absolute;
+  left: 912px;
+  margin-top: 112px;
+}
+.social_net_3 {
+  position: absolute;
+  left: 962px;
+  margin-top: 110px;
+}
+.social_net_4 {
+  position: absolute;
+  left: 1012px;
+  margin-top: 110px;
+}
+.startup {
+  padding-top: 177px;
+  color: white;
+  text-align: center;
+}
+.line {
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  left: 922px;
+  margin-top: 166px;
+}
+#footer {
+  padding-bottom: 0px;
+}
