@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  width: 1300px;
+  height: 800px;
+  border-collapse: collapse;
+}
+th {
+   
+    background-color: rgb(173, 216, 230);
+}
+tr:nth-child(even) {
+  background-color: rgb(235, 235, 235, 0.808);
+}
+td {
+    text-align: center;
+}
+th:first-child {
+  position:fixed;
+  line-height: 80px;
+  padding-right: 60px; 
+}
+th:nth-child(n+2) {
+  position:sticky;
+  top: 0;
+}
