@@ -10,11 +10,15 @@
       let currentYear = 2023;
       let userAge = +prompt("Введите ваш год рождения: ");
       let res = currentYear - userAge;
-      
+
       if (userAge <= 0 || userAge > currentYear) {
         alert("Некорректный ввод!");
+      } else if (res % 10 == 1) {
+        alert("Вам " + res + " год.");
+      } else if (res % 10 == 2) {
+        alert("Вам " + res + " года.");
       } else {
-        alert("Вам " + res + " лет (года).");
+        alert("Вам " + res + " лет.");
       }
     </script>
   </body>
