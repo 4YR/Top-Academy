@@ -41,28 +41,41 @@
 
 // Task 5
 
-let positive = 0;
-let negative = 0;
-let zero = 0;
-let even = 0;
-let odd = 0;
-for (let i = 1; i <= 10; i++) {
-  number = +prompt("Введите числа: ");
-  if (number > 0) {
-    positive++;
+// let positive = 0;
+// let negative = 0;
+// let zero = 0;
+// let even = 0;
+// let odd = 0;
+// for (let i = 1; i <= 10; i++) {
+//   number = +prompt("Введите числа: ");
+//   if (number > 0) {
+//     positive++;
+//   }
+//   if (number == 0) {
+//     zero++;
+//   }
+//   if (number < 0) {
+//     negative++;
+//   }
+//   if (number % 2 == 0) {
+//     even++;
+//   } else {
+//     odd++;
+//   }
+// }
+// alert(
+//   `Полоительных чисел: ${positive}, отрицательных ${negative}, нулевых ${zero}, четных ${even}, нечетных ${odd}`
+// );
+
+// NOD
+function gcd(a, b) {
+  while (a != b) {
+    if (a > b) {
+      a = a - b;
+    } else {
+      b = b - a;
+    }
   }
-  if (number == 0) {
-    zero++;
-  }
-  if (number < 0) {
-    negative++;
-  }
-  if (number % 2 == 0) {
-    even++;
-  } else {
-    odd++;
-  }
+  return a;
 }
-alert(
-  `Полоительных чисел: ${positive}, отрицательных ${negative}, нулевых ${zero}, четных ${even}, нечетных ${odd}`
-);
+console.log(gcd(5, 15));
